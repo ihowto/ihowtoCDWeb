@@ -1,0 +1,171 @@
+body{
+    text-align: center;
+    margin: 0px;
+}
+
+header {
+    height: 100px;
+    border: 1px solid #DFDFDF;
+    box-shadow:0px 1px 2px #DFDFDF;
+    text-align: center;
+}
+
+#top-nav {
+    width: 100%;
+    height: 25px;
+    background: black;
+    position: fixed;
+    z-index: 100;
+    top: 0px;
+    left: 0px;
+}
+
+#top-nav-fake {
+    width: 100%;
+    height: 25px;
+    background: black;
+}
+
+#a-home-logo {
+    position: absolute;
+    left: 30px;
+    top: 15px;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+}
+
+#a-home-logo img {
+    width: 45px;
+    height: 45px;
+}
+
+#a-home-to-studio img {
+    height:45px;
+}
+
+#a-home-to-studio {
+    position: absolute;
+    right: 0px;
+    top: 15px;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+#a-home-logo:hover {
+    color: black;
+}
+
+nav {
+    height: 75px;
+    width: 75%;
+    margin: 0px auto;
+    position: relative;
+    text-align: center;
+}
+
+nav ul {
+    width: 75%;
+    height: 75px;
+    margin: 0px auto;
+    text-align: center;
+    padding: 0px;
+}
+
+nav li {
+    display: inline-block;
+    list-style-type: none;
+    margin:0px 20px;
+}
+
+nav li a {
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    text-decoration: none;
+}
+
+#ul-slide-nav li a {
+    color: rgb(51, 51, 51);
+}
+
+#ul-static-nav li a {
+    color: rgb(51, 51, 51);
+}
+
+#ul-slide-nav {
+    width: 80%;
+    height: 30px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 12px;
+}
+
+#ul-static-nav {
+    width: 80%;
+    height: 45px;
+    margin: 0px auto;
+    text-align: center;
+    font-size: 15px;
+}
+
+#ul-slide-nav li {
+    line-height: 45px;
+}
+
+#ul-slide-nav li a:hover {
+    text-decoration: underline;
+}
+
+#ul-static-nav li {
+    line-height: 30px;
+    font-weight: bold;
+}
+
+.img-index-cover{
+    width: 45%;
+    margin: 20px auto;
+}
+
+#nav-menu {
+    position: absolute;
+    top: 10px;
+    left: 0px;
+    display: none;
+}
+
+@media screen and (min-width: 850px) and (max-width: 1080px) {
+    nav {
+    height: 75px;
+    width: 90%;
+    margin: 0px auto;
+    position: relative;
+    }
+}
+
+@media only screen and (max-width: 850px) { 
+    body { 
+        background: white;
+        } 
+    nav ul{
+        display: none;
+    }
+    #a-home-logo {
+    position: relative;
+    top: 15px;
+    left: 0px;
+    font-family: "PingFang SC", "Hiragino Sans GB", "Heiti SC", "Microsoft YaHei", "WenQuanYi Micro Hei";
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    color: gray;
+    }
+
+    #nav-menu {
+        display: block;
+        
+    }
+} 
+
